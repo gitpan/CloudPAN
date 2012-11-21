@@ -12,7 +12,7 @@ my %WriteMakefileArgs = (
   "ABSTRACT" => "Never install pure Perl modules again",
   "AUTHOR" => "Nicholas R. Perez <nperez\@cpan.org>",
   "BUILD_REQUIRES" => {
-    "Moo" => 0,
+    "Number::Zero" => 0,
     "Test::More" => 0
   },
   "CONFIGURE_REQUIRES" => {
@@ -23,14 +23,16 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "CloudPAN",
   "PREREQ_PM" => {
+    "File::Path" => 0,
+    "File::Spec" => 0,
+    "File::Temp" => 0,
     "HTTP::Tiny" => "0.022",
-    "IO::All" => 0,
     "MetaCPAN::API::Tiny" => 0,
     "Symbol" => 0,
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "1.121730",
+  "VERSION" => "1.123260",
   "test" => {
     "TESTS" => "t/*.t"
   }

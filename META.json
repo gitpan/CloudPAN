@@ -21,8 +21,10 @@
       },
       "runtime" : {
          "requires" : {
+            "File::Path" : "0",
+            "File::Spec" : "0",
+            "File::Temp" : "0",
             "HTTP::Tiny" : "0.022",
-            "IO::All" : "0",
             "MetaCPAN::API::Tiny" : "0",
             "Symbol" : "0",
             "strict" : "0",
@@ -31,7 +33,7 @@
       },
       "test" : {
          "requires" : {
-            "Moo" : "0",
+            "Number::Zero" : "0",
             "Test::More" : "0"
          }
       }
@@ -43,6 +45,6 @@
          "url" : "git://github.com/nperez/cloudpan"
       }
    },
-   "version" : "1.121730"
+   "version" : "1.123260"
 }
 

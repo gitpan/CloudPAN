@@ -3,7 +3,7 @@ abstract: 'Never install pure Perl modules again'
 author:
   - 'Nicholas R. Perez <nperez@cpan.org>'
 build_requires:
-  Moo: 0
+  Number::Zero: 0
   Test::More: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.30
@@ -15,12 +15,14 @@ meta-spec:
   version: 1.4
 name: CloudPAN
 requires:
+  File::Path: 0
+  File::Spec: 0
+  File::Temp: 0
   HTTP::Tiny: 0.022
-  IO::All: 0
   MetaCPAN::API::Tiny: 0
   Symbol: 0
   strict: 0
   warnings: 0
 resources:
   repository: git://github.com/nperez/cloudpan
-version: 1.121730
+version: 1.123260
