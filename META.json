@@ -33,7 +33,6 @@
       },
       "test" : {
          "requires" : {
-            "Number::Zero" : "0",
             "Test::More" : "0"
          }
       }
@@ -45,6 +44,6 @@
          "url" : "git://github.com/nperez/cloudpan"
       }
    },
-   "version" : "1.123260"
+   "version" : "1.123261"
 }
 

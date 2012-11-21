@@ -1,6 +1,6 @@
 package CloudPAN;
 {
-  $CloudPAN::VERSION = '1.123260';
+  $CloudPAN::VERSION = '1.123261';
 }
 
 #ABSTRACT: Never install pure Perl modules again
@@ -149,7 +149,7 @@ CloudPAN - Never install pure Perl modules again
 
 =head1 VERSION
 
-version 1.123260
+version 1.123261
 
 =head1 SYNOPSIS
 
