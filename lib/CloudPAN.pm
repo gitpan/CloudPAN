@@ -1,6 +1,6 @@
 package CloudPAN;
 {
-  $CloudPAN::VERSION = '1.123261';
+  $CloudPAN::VERSION = '1.130120';
 }
 
 #ABSTRACT: Never install pure Perl modules again
@@ -51,7 +51,7 @@ sub fetch_from_metacpan
 
     eval
     {
-        my $ret = $api->fetch('module/_search', q => qq|path:lib/$name|, size => 1, fields => 'author,release,path');
+        my $ret = $api->fetch('module/_search', q => qq|path:lib/$name AND status:latest|, size => 1, fields => 'author,release,path');
         
         die 'NoFetch'
             unless $ret &&
@@ -149,7 +149,7 @@ CloudPAN - Never install pure Perl modules again
 
 =head1 VERSION
 
-version 1.123261
+version 1.130120
 
 =head1 SYNOPSIS
 
