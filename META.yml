@@ -3,7 +3,6 @@ abstract: 'Never install pure Perl modules again'
 author:
   - 'Nicholas R. Perez <nperez@cpan.org>'
 build_requires:
-  Acme::Stardate: 0
   Test::More: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.30
@@ -25,4 +24,4 @@ requires:
   warnings: 0
 resources:
   repository: git://github.com/nperez/cloudpan
-version: 1.130560
+version: 1.130561

@@ -1,6 +1,6 @@
 package CloudPAN;
 {
-  $CloudPAN::VERSION = '1.130560';
+  $CloudPAN::VERSION = '1.130561';
 }
 
 #ABSTRACT: Never install pure Perl modules again
@@ -150,7 +150,7 @@ CloudPAN - Never install pure Perl modules again
 
 =head1 VERSION
 
-version 1.130560
+version 1.130561
 
 =head1 SYNOPSIS
 
@@ -205,7 +205,7 @@ Nicholas R. Perez <nperez@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2012 by Nicholas R. Perez <nperez@cpan.org>.
+This software is copyright (c) 2013 by Nicholas R. Perez <nperez@cpan.org>.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
