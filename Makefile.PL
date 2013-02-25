@@ -12,6 +12,7 @@ my %WriteMakefileArgs = (
   "ABSTRACT" => "Never install pure Perl modules again",
   "AUTHOR" => "Nicholas R. Perez <nperez\@cpan.org>",
   "BUILD_REQUIRES" => {
+    "Acme::Stardate" => 0,
     "Test::More" => 0
   },
   "CONFIGURE_REQUIRES" => {
@@ -31,7 +32,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "1.130120",
+  "VERSION" => "1.130560",
   "test" => {
     "TESTS" => "t/*.t"
   }

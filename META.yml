@@ -3,11 +3,12 @@ abstract: 'Never install pure Perl modules again'
 author:
   - 'Nicholas R. Perez <nperez@cpan.org>'
 build_requires:
+  Acme::Stardate: 0
   Test::More: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300028, CPAN::Meta::Converter version 2.120921'
+generated_by: 'Dist::Zilla version 4.300030, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -24,4 +25,4 @@ requires:
   warnings: 0
 resources:
   repository: git://github.com/nperez/cloudpan
-version: 1.130120
+version: 1.130560

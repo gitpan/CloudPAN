@@ -1,6 +1,6 @@
 package CloudPAN;
 {
-  $CloudPAN::VERSION = '1.130120';
+  $CloudPAN::VERSION = '1.130560';
 }
 
 #ABSTRACT: Never install pure Perl modules again
@@ -140,6 +140,7 @@ BEGIN {
 
 1;
 
+__END__
 
 =pod
 
@@ -149,7 +150,7 @@ CloudPAN - Never install pure Perl modules again
 
 =head1 VERSION
 
-version 1.130120
+version 1.130560
 
 =head1 SYNOPSIS
 
@@ -210,6 +211,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
-
-__END__
