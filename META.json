@@ -4,7 +4,7 @@
       "Nicholas R. Perez <nperez@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300030, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Dist::Zilla version 4.300035, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "perl_5"
    ],
@@ -49,6 +49,6 @@
          "url" : "git://github.com/nperez/cloudpan"
       }
    },
-   "version" : "1.130561"
+   "version" : "1.131730"
 }
 

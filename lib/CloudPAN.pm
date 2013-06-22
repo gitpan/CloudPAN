@@ -1,6 +1,6 @@
 package CloudPAN;
 {
-  $CloudPAN::VERSION = '1.130561';
+  $CloudPAN::VERSION = '1.131730';
 }
 
 #ABSTRACT: Never install pure Perl modules again
@@ -131,8 +131,8 @@ BEGIN {
         {
             my $content_ref = fetch_from_metacpan($name);
             my $fh = File::Temp::tempfile(UNLINK => 1);
-            $fh->print($$content_ref);
-            $fh->seek(0,0);
+            print $fh $$content_ref;
+            seek($fh, 0, 0);
             return $fh;
         }
     });
@@ -150,7 +150,7 @@ CloudPAN - Never install pure Perl modules again
 
 =head1 VERSION
 
-version 1.130561
+version 1.131730
 
 =head1 SYNOPSIS
 
