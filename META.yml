@@ -24,4 +24,4 @@ requires:
   warnings: 0
 resources:
   repository: git://github.com/nperez/cloudpan
-version: 1.131730
+version: 1.131740

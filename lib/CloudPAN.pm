@@ -1,6 +1,6 @@
 package CloudPAN;
 {
-  $CloudPAN::VERSION = '1.131730';
+  $CloudPAN::VERSION = '1.131740';
 }
 
 #ABSTRACT: Never install pure Perl modules again
@@ -122,8 +122,8 @@ BEGIN {
                 open(my $fh, '+>', $path)
                     or die "Unable to write cached copy of module located at $path";
 
-                $fh->print($$content_ref);
-                $fh->seek(0,0);
+                print $fh $$content_ref;
+                seek($fh, 0, 0);
                 return $fh;
             }
         }
@@ -150,7 +150,7 @@ CloudPAN - Never install pure Perl modules again
 
 =head1 VERSION
 
-version 1.131730
+version 1.131740
 
 =head1 SYNOPSIS
 
